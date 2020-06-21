@@ -84,7 +84,12 @@ def main():
             locs = fetchLocations(m)
             print('Found ' + str(len(locs)) + ' locations to lookup in map ' + m.find('loc').string)
             for l in locs:
-                fetchAsset(l,'img')
+                try:
+                    fetchAsset(l,'img')
+                except Exception as err:
+                    print(err)
+                    print('Skipping fetch attempt due to error')
+                    continue
 
     except Exception as e:
         print(e)
