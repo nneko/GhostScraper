@@ -16,6 +16,6 @@ gh-scraper.py [options] [ghost-blog url]
 
 ## Dependencies
 
-- Python3
-    - bs4 BeautifulSoup
-    - lxml
+- [Python3](https://www.python.org)
+    - [BeautifulSoup 4](https://www.crummy.com/software/BeautifulSoup/)
+    - [lxml](https://lxml.de)
