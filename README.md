@@ -3,7 +3,7 @@ An asset scraper for ghost blogs
 
 ## Usage
 
-gh-scraper.py [options] [ghost-blog url]
+gh_scraper.py [options] [ghost-blog url]
 
 ### Options
  - `-d [dir]` or `--directory=[dir]` to specify data directory location. This is the location where the assets will be saved after downloading. It can be either a fullpath or relative path to where the script is being called. The path must not end with a `/`.

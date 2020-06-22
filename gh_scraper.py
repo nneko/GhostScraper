@@ -93,7 +93,6 @@ def main(argv):
         if len(args) < 1:
             raise Exception('Invalid arguments')
         else:
-            print(opts)
             for opt, arg in opts:
                 if opt == '-h':
                     printUsage(2)
